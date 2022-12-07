@@ -6,12 +6,34 @@
     flex-wrap: wrap;
     padding: 0 50px;
     gap: 5em;
+    padding-top: 150px;
+    height: 600px;
 }
 .fst-header{
-    width: 420px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.fst-header h1{
+    font-size: 38px;
+    font-weight: 800;
+    font-family: var(--fontFamily);
+}
+.fst-header p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--fontFamily);
+}
+.fst-header button{
+    padding: 8px 17px;
+    background-color: var(--brightRed);
+    color: white;
+    border-radius: 20px;
+    border: 1px solid var(--brightRed);
 }
 .sec-header{
-    width: 420px;
+    width: 380px;
 }
 .sec-header img{
     width: 100%;

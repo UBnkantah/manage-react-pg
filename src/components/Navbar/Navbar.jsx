@@ -21,14 +21,14 @@ const NavBar = () => {
         <Link href='/'>About Us</Link>
         <Link href='/'>Careers</Link>
         <Link href='/'>Community</Link>
-        <button className='get-btn'>
+        <button className='get_btn'>
           Get Started
         </button>
-        <button classList="navbar_btn navbar_close">
+        <button className="navbar_btn navbar_close" onClick={showNav}>
           <FaTimes />
         </button>
       </nav>
-      <button classList="navbar_btn">
+      <button className="navbar_btn" onClick={showNav}>
         <FaBars />
       </button>
     </div>

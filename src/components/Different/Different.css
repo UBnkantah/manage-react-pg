@@ -1,3 +1,51 @@
 .different{
     display: flex;
+    justify-content: center;
+    padding: 40px 50px;
+    flex-wrap: wrap;
+    gap: 3em;
 }
+.different .different-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 400px;
+}
+.different-div h1{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: var(--fontFamily);
+}
+.different-div p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--fontFamily);
+}
+.diff-rgt{
+    display: flex;
+    gap: 1em;
+}
+.diff-rgt .button button{
+    padding: 4px 15px;
+    color: white;
+    background-color: var(--brightRed);
+    border-radius: 20px;
+    font-weight: 800;
+}
+.diff-rgt .details{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.diff-rgt .details h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* .diff-rgt{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 1em;
+} */

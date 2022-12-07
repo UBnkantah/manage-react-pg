@@ -1,0 +1,32 @@
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--brightRed);
+    
+    flex-wrap: wrap;
+}
+.sub-footer .details,
+.sub-footer .button{
+    width: 380px;
+    padding: 50px;
+}
+.button button{
+    padding: 7px 18px;
+    color: var(--brightRed);
+    background-color: white;
+    border-radius: 20px;
+}
+.details h1{
+    text-align: start;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+}
+@media screen and (max-width: 767px){
+    .sub-footer .details,
+    .sub-footer .button{
+        width: 380px;
+        padding: 20px;
+    }
+}
