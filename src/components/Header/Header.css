@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    gap: 5em;
+}
+.fst-header{
+    width: 420px;
+}
+.sec-header{
+    width: 420px;
+}
+.sec-header img{
+    width: 100%;
+}
