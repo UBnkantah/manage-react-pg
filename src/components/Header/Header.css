@@ -7,7 +7,6 @@
     padding: 0 50px;
     gap: 5em;
     padding-top: 150px;
-    height: 600px;
 }
 .fst-header{
     width: 400px;
@@ -16,7 +15,7 @@
     gap: 1em;
 }
 .fst-header h1{
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 800;
     font-family: var(--fontFamily);
 }
@@ -33,7 +32,7 @@
     border: 1px solid var(--brightRed);
 }
 .sec-header{
-    width: 380px;
+    max-width: 400px;
 }
 .sec-header img{
     width: 100%;

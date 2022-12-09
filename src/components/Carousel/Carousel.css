@@ -12,6 +12,7 @@
     padding: 8px 20px;
     box-shadow: 2px 2px 2px var(--varyLightGray);
     border-radius: 20px;
+    border: 1.5px solid var(--brightRed);
 }
 .carousel h1{
     text-align: center;
